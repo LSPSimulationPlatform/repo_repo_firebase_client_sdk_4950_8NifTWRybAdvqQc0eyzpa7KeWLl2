@@ -3,9 +3,8 @@ import { Layout, Button, Space, Card, Row, Col } from 'antd';
 
 // Importing the Navbar component
 import Navbar from '../components/Navbar';
-import useHome from '../hooks/useHome';
 import HomeContent from '../components/HomeContent';
-
+import useHome from '../hooks/useHome';
 
 // Defining the Home page component
 const Home = () => {
